@@ -1,0 +1,869 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+.dashsite{
+    display: flex;
+width: 100vw;
+}
+.sidesite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: 100vh;
+    background-color: rgb(54, 55, 74);
+}
+.clientc{
+    width: 80%!important;
+}
+.sidesite>h3:hover{
+    background-color: rgb(120, 126, 255);
+  
+}
+.sidesite>h3{
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(254, 254, 254);
+
+}
+.buttonsclock>button{
+    border-radius: 100%;
+    width: 100px;
+    border: 2px solid rgb(0, 128, 83);
+    
+    background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 35%, rgba(235,235,235,1) 100%);
+    background-color: white;
+   
+    box-shadow: rgb(20 21 33 / 18%) 0px 10px 10px 0px;
+    height: 100px;
+}
+.clkin{
+    margin-bottom: 30px;
+    margin-right: 20px;
+    width: 120px;
+    height: 120px;
+    background-color: rgb(241, 243, 245);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    box-shadow: rgb(1 176 126 / 50%) 0px 2px 15px 0px;
+
+}
+
+.clkinx{
+    margin-bottom: 30px;
+    margin-right: 20px;
+    width: 120px;
+    height: 120px;
+    background-color: rgb(241, 243, 245);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    box-shadow: rgba(158, 158, 158, 0.5) 0px 2px 15px 0px;
+
+}
+.clockhead2{
+    width: 100%!important;
+}
+.divleave{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+.ktypre2{
+    padding-left: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 5px;
+    border-radius: 8px;
+    background-color: rgb(134, 232, 215);
+    color: rgb(0, 128, 83);
+}
+.attside{
+    display: flex;
+    flex-direction: column
+    ;
+    width: 95%;
+}
+.clkinx>button{
+    border-radius: 100%;
+    width: 100px;
+    border: 2px solid rgb(149, 149, 149);
+ color: rgb(153, 153, 153);
+    background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 35%, rgba(235,235,235,1) 100%);
+    background-color: white;
+
+    height: 100px;
+}
+.clkin>button{
+    border-radius: 100%;
+    width: 100px;
+    border: 2px solid rgb(1, 176, 126);
+ color: rgb(1, 176, 126);
+    background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 35%, rgba(235,235,235,1) 100%);
+    background-color: white;
+
+    height: 100px;
+}
+.cardh2{
+    font-size: 20px!important;
+    font-weight: 400;
+    color: white;
+    
+    font-family: 'Roboto', sans-serif!important;
+
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cardf3{
+    
+    font-size: 14px!important;
+    font-weight: 400;
+    color: white;
+    font-family: 'Roboto', sans-serif!important;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cardh3{
+    font-size: 60px!important;
+    font-weight: 400!important;
+    color: rgb(163, 141, 249)!important;
+}
+.clkin2{
+    margin-bottom: 30px;
+    margin-right: 20px;
+    width: 120px;
+    height: 120px;
+    background-color: rgb(241, 243, 245);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    box-shadow: rgb(248 130 130 / 50%) 0px 2px 15px 0px;
+
+}
+.clkin2>button{
+    border-radius: 100%;
+    width: 100px;
+    border: 2px solid rgb(248, 130, 130);
+ color: rgb(248, 130, 130);
+    background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 35%, rgba(235,235,235,1) 100%);
+    background-color: white;
+
+    height: 100px;
+}
+.buttonsclock{
+    width: 95%;
+    display: flex;
+}
+.icondash1{
+    color: white;
+    margin-right: 10px;
+}
+
+.sidesite>h1{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    width: 80%;
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(254, 254, 254);
+}
+.profilepage{
+    width: 95%;
+    border-radius: 25px;
+    min-height: 95vh;
+    margin: auto;
+    padding-top: 20px;
+
+    box-shadow: rgb(20 21 33 / 18%) 0px 2px 10px 0px;
+    padding-left: 50px;
+    background-color: white;
+
+}
+.clientb{
+    position: relative;
+}
+.profilepage>h1{
+    
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(35, 1, 108);
+}
+
+.profilepage>h6{
+    
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(86, 85, 85);
+}
+.cardf>h1{
+    
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(97, 6, 172);
+}
+.cardf{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 15px;
+    width: 95%;
+    border: 2px dashed rgb(126, 20, 212);
+    background-color: rgb(241, 239, 248);
+    
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(116, 114, 114);
+}
+.profilepage>img{
+    width: 100px;
+
+}
+.s55{
+    display: flex;
+}
+.ytr5{
+    height: 100vh!important;
+}
+.xxxsd{
+margin-bottom:20px!important;
+}
+.trade{
+    margin-top: 40px!important;
+}
+.fixedheader{
+    z-index: 999;
+}
+.displayatend{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.btx1{
+    display: flex;
+}
+.resizeimg{
+    border-radius: 8px!important;
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+}
+.rtp{
+    cursor: pointer;
+    width: max-content!important;
+    overflow: hidden;
+    position: relative;
+}
+.rtp>input{
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    opacity: 0;
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.parin>h1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(136, 136, 136);
+}
+.spanish{
+padding-left: 10px;
+padding-right: 10px;
+width: max-content;
+margin-left: 20px;
+padding-top: 2px;
+padding-bottom: 2px;
+border-radius: 10px;
+background-color: rgb(226, 218, 245);
+color: rgb(103, 9, 203);
+}
+.updatep{
+    
+    color: rgb(255, 255, 255);
+    background-color: rgb(126, 20, 212)!important;
+    border-radius: 4px;
+    font-weight: 600!important;
+    margin-right: 10px;
+    border: none;
+    width: 140px;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 35px;
+}
+.attside>.adduser{
+    left: 0;
+}
+.porcard2{
+    margin-left: 20px;
+}
+.a4>p{
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 14px;
+    font-weight: 500;
+margin-top: 10px;    
+    color: rgb(20, 20, 20);
+}
+.jobdate{
+    width: 96%;
+    height: 30px;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+.jobdate>h1{
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 14px;
+    font-weight: 700;
+    width: 50%;  
+    color: rgb(20, 20, 20);
+}
+.minwidth{
+    font-size: 10px!important;
+    min-width: 50px!important;
+}
+.colhead3>.boxs1{
+    font-weight: 700!important;
+}
+.minwidth2{
+    font-size: 10px!important;
+    min-width: 80px!important;
+}
+
+.minwidth2x{
+    padding-left: 4px;
+    text-align: start!important;
+    justify-content: flex-start!important;
+    font-size: 12px!important;
+    min-width: 130px!important;
+}
+.topcola{
+    overflow: scroll;
+    max-width: 100%!important;
+    min-height: 0px!important;
+}
+.a4>h3{
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 14px;
+    font-weight: 500;
+margin-top: 10px;    
+    color: rgb(20, 20, 20);
+}.a4{
+    padding-bottom: 20px;
+    overflow: scroll;
+}
+.ar3{
+    border: 2px solid black;
+    padding: 5px;
+    width: 96%;
+}
+.bordernoe{
+    border: none!important;
+}
+.colhead3>div{
+    color: black;
+}
+.topcola>.colhead>.boxs1{
+    border: 1px solid black!important;
+    height: 20px;
+}
+.topcola>.colhead3>.boxs1{
+    height: 50px!important;
+}
+.topcola{
+    background-color: white!important;
+}
+.a4>h2{
+    border: 2px solid black;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 14px;
+    font-weight: 700;
+margin-top: 10px;    
+max-width: 95%;
+    color: rgb(20, 20, 20);
+}
+.a4{
+    padding-left: 20px;
+}
+.a4>h1{
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    text-align: center;
+}
+.proft{
+    justify-content: flex-start!important;
+}
+.fullwidth{
+    width:95%!important;
+}
+.bgred{
+    background-color: #fe8686;
+}
+.bggreen{
+    background-color: rgb(208, 209, 208);
+}
+.eas{
+    flex-direction: column;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(36, 35, 35,0.5);
+    overflow: scroll;
+    z-index: 9999;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+
+}
+.a4{
+    width: 96%;
+    height: max-content;
+    background-color: white;
+
+}
+.topcolumn{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(244, 244, 244);
+    overflow: scroll;
+    display: flex;
+    padding-bottom: 100px;
+    flex-direction: column;
+
+}
+.colhead{
+    display: flex;
+}
+.bottombar>button{
+    height: 40px;
+margin-right: 8px;
+}
+.bgred2{
+    cursor: pointer;
+    background-color: rgb(3, 218, 157);
+}
+.bottombar>div{
+    
+    color: rgb(255, 255, 255);
+font-weight: 600;
+margin-right: 20px;
+}
+.bottombar{
+    position: relative;
+}
+.bottombar>select{
+    position: absolute;
+    left: 10px;
+    height: 40px;
+    border: 2px solid rgb(4, 123, 187);
+    color: rgb(116, 114, 114);
+    border-radius: 5px;
+    min-width: 100px;
+
+}
+.subheight>p{
+    font-size: 12px!important;
+    text-align: center;
+}
+.bgred,.bggreen{
+    cursor: pointer;
+}
+.bottombar{
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    
+    width: 100vw;
+    height: 65px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    background: linear-gradient(90deg, rgba(64,144,236,1) 35%, rgba(0,46,99,1) 100%)!important;
+}
+.absval{
+    position: absolute;
+top: 22px;
+font-weight: 600!important;
+
+}
+.subpart,.subpart2{
+    position: relative;
+}
+.boxs1{
+    color: white;
+    flex: 1;
+    min-width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 12px;
+    font-weight: 500;
+    width: 100px;
+    height: 50px;
+    border-bottom: 2px solid rgb(1, 158, 158);
+}
+.rwdiv1{
+    display: flex;
+    flex-direction: column;
+}
+.rwdiv1>h1{
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(20, 20, 20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    border-bottom: 2px solid black;
+
+}
+.rwdiv2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.rwdiv2>h3{
+    
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 25px;
+    font-weight: 900;
+    font-style: italic;
+    color: rgb(20, 20, 20);
+    margin-top: 20px;
+}
+.rwdiv1>p{
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(20, 20, 20);
+    margin-top: 0px;
+
+}
+.tablefor{
+    width: max-content;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.tableforhead{
+    display: flex;
+
+}
+.subbox1{
+
+    min-width: 150px!important;
+    flex: 1;
+    border: 1px solid black;
+height: 20px;
+
+
+}
+.subpart2{
+    border-right: 2px solid black;
+}
+.subpart,.subpart2{
+    width: 50%;
+    height: 100%;
+}
+
+.subheight{
+    height: 40px!important;
+}
+.columnh{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+ min-width: 90%;
+}
+.tableforheadx{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+.rws1{
+    width: 100%;
+    display: flex;
+
+}
+.subbox2{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    color: rgb(20, 20, 20);
+}
+.subbox2>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    color: rgb(20, 20, 20);
+
+
+}
+.subbox2{
+    display: flex;
+}
+.subbox2{
+height: 20px;
+    min-width: 50px;
+    flex: 1;
+    border: 1px solid black;
+    
+
+}
+
+.tableforhead{
+
+}
+.rwdiv1>h1{
+    margin-bottom: 0px!important;
+}
+.rwdiv1x{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+.underline2{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.undertexrx{
+    width: 48%;
+}
+.underlinea{
+    font-weight: 400;
+    margin-left: 8px;
+    border-bottom: 2px solid black;
+    min-width: 100px;
+}
+.undertexr{
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    color: rgb(20, 20, 20);
+}
+.rw1{
+    min-width: 670px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.rwdiv1x{
+    min-width: 670px;
+}
+.eas{
+    padding-bottom: 50px;
+}
+.nbox{
+    min-width: 170px!important;
+    width: 170px!important;
+}
+.blackfont{
+    
+    font-weight: 400!important;
+    color: rgb(0, 0, 0)!important;
+}
+
+.colhead2{ 
+    width: max-content;
+    min-width: 100vw;
+    background: linear-gradient(90deg, rgba(64,144,236,1) 35%, rgba(0,46,99,1) 100%)!important;
+}
+.attend{
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+    background-color: rgb(218, 220, 220);
+}
+.peint{
+    border: 2px solid rgb(116, 114, 114);
+    background-color: white;
+    color: rgb(116, 114, 114);
+    border-radius: 8px;
+    width: 100px;
+}
+
+.backm{
+    border: 2px solid rgb(248, 130, 130);
+    background-color: white;
+    color: rgb(248, 130, 130);
+    border-radius: 8px;
+    width: 100px;
+}
+
+.view{
+    border: 2px solid rgb(120, 126, 255);
+    background-color: white;
+    color: rgb(120, 126, 255);
+    border-radius: 8px;
+    width: 100px;
+}
+
+.sublogin>h3{
+    
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 14px;
+    color: rgb(103, 9, 203);
+    font-weight: 400;
+}
+@media only screen and (max-width: 600px) {
+    .bottombar{
+        height: auto!important;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        justify-content: center!important;
+        flex-wrap: wrap;
+    }
+    .bottombar>div{
+        width: 44%!important;
+        display: flex;
+        justify-content: center;
+    }
+    .bottombar>button{
+        margin: 3px!important;
+        width: 30%!important;
+    }
+    .bottombar>select{
+        left: 0!important;
+        width: 90%;
+        position: relative!important;
+    }
+}
+@media only screen and (max-width: 900px) {
+   
+    .btn1,.btn2{
+        max-width: 150px!important;
+    }
+    .resizeimg{
+        margin-bottom: 30px;
+    }
+.adduser{
+    align-items: flex-start!important;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    min-height: 100vh!important;
+    overflow: scroll;
+    height: max-content;
+}
+.subadduser{
+    height: max-content!important;
+}
+
+
+
+    .btn3{
+        margin-left: 15px;
+    }
+    .inputname2{
+        width: 100%!important;
+    }
+    .subadduser{
+        width: 98%!important;
+    }
+.sidesite>h1{
+    display: none!important;
+}
+.sidesite>h3{
+    flex-direction: column;
+    font-weight: 400!important;
+    font-size: 12px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: rgb(54, 55, 74)!important;
+    margin-bottom: 0px!important;
+}
+.icondash1{
+    font-size: 16px!important;
+    margin-right: 0px!important;
+    color: rgb(54, 55, 74)!important;
+}
+.buttonsclock{
+    align-items: center;
+    justify-content: center;
+}
+.clientb{
+    width: 100%!important;
+}
+.sidesite>h3:hover{
+    background-color: white!important;
+    
+}
+
+    .sidesite{
+        
+    box-shadow: rgb(20 21 33 / 18%) 0px 2px 10px 0px;
+        background-color: white!important;
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+        z-index: 999999;
+        justify-content: space-between;
+        height: 50px;
+        flex-direction: row;
+    }
+}
